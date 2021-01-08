@@ -1,0 +1,73 @@
+#bodybackground {
+  background-image: url("../images/crow.jpg");
+  background-repeat: no repeat;
+  padding-top: 2em;
+  padding-bottom: 5em;
+  background-position-x: right;
+  background-size: cover;
+  background-color: rgb(187, 186, 186);
+  background-blend-mode: darken;
+}
+
+/* #bodybackground {
+  background-image: url("../images/utan_slips.jpg");
+  background-repeat: no repeat;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-position-x: center;
+  background-size: cover;
+  background-color: rgb(51, 51, 51);
+  background-blend-mode: darken;
+} */
+
+footer {
+  background: black;
+}
+
+.navbar {
+  background-color: black;
+  border-color: rgb(54, 54, 54);
+}
+
+#rowpicture {
+  max-height: 15em;
+}
+
+.col-sm-4 {
+  text-align: center;
+}
+
+#row1 {
+  background: rgba(48, 10, 10, 0.534);
+}
+
+.paragraphs {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: "Oswald", sans-serif !important;
+}
+
+#signup {
+  color: white;
+}
+
+.carousel-item {
+  height: 10rem;
+  max-width: 100vw;
+  background-size: cover;
+  border-radius: 3em;
+  background-repeat: no-repeat;
+}
+
+.carouselimage1 {
+  background-image: url("../images/guitar.jpg");
+}
+.carouselimage2 {
+  background-image: url("../images/microphone2.jpg");
+}
+.carouselimage3 {
+  background-image: url("../images/booking.jpg");
+}
