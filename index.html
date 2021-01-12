@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap Site</title>
+  <meta name="description" content="In the Loop helps you find local live events such as stand up comedy and music by choosing a location and then searching the surrounding area.">
+  <meta name="keywords" content="events, local, live, music, stand up">
+  <meta name="author" content="Palmeuh">
   <link rel="stylesheet" href="css/site.css">  
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
@@ -12,47 +15,56 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-          <div class="container ml-0">    
-            <a class="navbar-brand" href="index.html">
-              <img src="../images/logotyp.png" width="30" height="30" class="d-inline-block align-top mr-2" alt="">
-              In the Loop!</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-              aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse ml-5" id="navbarCollapse">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home </a>
-                </li>                
-                <li class="nav-item">
-                  <a class="nav-link" href="events.html">Events</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand abs" href="index.html">
+          <img src="../images/logotyp.png" width="30" height="30" class="d-inline-block align-top mr-2" alt="">
+          In the Loop!</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="login.html">Login or Register</a>
+              </li>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+    
 
     <div class="container-fluid" id="bodybackground">
       <main class="container-fluid">
         <div class="jumbotron jumbotron-fluid bg-transparent text-center pb-1 text-light">
           <div class="container ">
             <h1 class="display-3">In the Loop!</h1>
-            <p class="lead">Find events in your area.</p> 
+            <p class="lead">Find local live events in your area.</p> 
           </div>
         </div>
         <div class="container text-center pb-5">
           <div class="row">
-            <p class="text-light paragraphs">Whether you want to dance, headbang or laugh we'll find local events for you to attend. Evertyhing from metal to stand-up comedy, make sure that you won't miss it.</p>
+            <p class="text-light paragraphs">Whether you want to dance, headbang or laugh we'll find local live events for you to attend. Evertyhing from metal to stand-up comedy, make sure that you won't miss it.</p>
           </div>     
           <div class="row">
-            <p class="text-light paragraphs">For personalized content and updates, please <a href="signup.html" id="signup"><strong>sign up</strong></a> and become a member of  In the Loop!</p>
+            <p class="text-light paragraphs">For personalized content and updates, please <a href="signup.html" class="signupLink"><strong>sign up</strong></a> and become a member of  In the Loop!</p>
           </div>
         </div>
         <div class="container-fluid">
@@ -65,19 +77,19 @@
             <div class="carousel-inner">
               <div class="carousel-item active carouselimage1">                
                 <div class="carousel-caption">
-                  <h5>Live Music</h5>
+                  <a href="events.html" class="carouselLink"><h5>Live Music</h5></a>
                   <p>See your favorite artists close to you!</p>
                 </div>
               </div>
               <div class="carousel-item carouselimage2">
                 <div class="carousel-caption">
-                  <h5>Stand-Up Comedy</h5>
+                  <a href="events.html" class="carouselLink"><h5>Stand-Up Comedy</h5></a>
                   <p>Don't miss a chance to laugh with your friends!</p>
                 </div>
               </div>
               <div class="carousel-item carouselimage3">
                 <div class="carousel-caption">
-                  <h5>Some good title</h5>
+                  <a href="partners.html" class="carouselLink"><h5>Some good title</h5></a>
                   <p>Here should say something about something</p>
                 </div>
               </div>
@@ -107,8 +119,7 @@
         <h5 class="text-uppercase">About In the Loop!</h5>
 
         <p class="text-justify">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-          molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae!
+          In the Loop! is a site which helps you find local live events ranging from your favorite band to the best Stand Up comedians!
         </p>
       </div>
       <!--Grid column-->
@@ -137,13 +148,13 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!" class="text-light">Link 1</a>
+            <a href="#!" class="text-light">Partner 1</a>
           </li>
           <li>
-            <a href="#!" class="text-light">Link 2</a>
+            <a href="#!" class="text-light">Partner 2</a>
           </li>
           <li>
-            <a href="#!" class="text-light">Link 3</a>
+            <a href="#!" class="text-light">Partner 3</a>
           </li>
         </ul>
       </div>

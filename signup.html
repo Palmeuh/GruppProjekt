@@ -33,7 +33,7 @@
               <a class="nav-link" href="events.html">Events</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">About Us</a>
@@ -42,7 +42,7 @@
           <form class="d-flex">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="login.html">Login or Register</a>
+                <a class="nav-link active" aria-current="page" href="login.html">Login or Register</a>
               </li>
           </form>
         </div>
@@ -50,11 +50,56 @@
     </nav>
   </header>
 
-    <div class="container-fluid" id="bodybackground">
-      <main class="container-fluid">
-     
-        
+    <div class="container-fluid text-center pt-5 text-light" id="bodybackground">
+      <main class="form-signin">
+        <form class="form-horizontal pt-5" action='' method="POST">
+          <fieldset>
+            <div id="legend">
+              <legend class="">Sign Up</legend>
+            </div>
+            <div class="control-group pb-2">
+              <!-- Username -->
+              <label class="control-label"  for="username">Username</label>
+              <div class="controls">
+                <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
+              </div>
+            </div>
+         
+            <div class="control-group pb-2">
+              <!-- E-mail -->
+              <label class="control-label" for="email">E-mail</label>
+              <div class="controls">
+                <input type="text" id="email" name="email" placeholder="" class="input-xlarge">
+              </div>
+            </div>
+         
+            <div class="control-group pb-2">
+              <!-- Password-->
+              <label class="control-label" for="password">Password</label>
+              <div class="controls">
+                <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
+              </div>
+            </div>
+         
+            <div class="control-group pb-2">
+              <!-- Password -->
+              <label class="control-label"  for="password_confirm">Password (Confirm)</label>
+              <div class="controls">
+                <input type="password" id="password_confirm" name="password_confirm" placeholder="" class="input-xlarge">
+              </div>
+            </div>
+         
+            <div class="control-group">
+              <!-- Button -->
+              <div class="controls">
+                <button class="btn" id="signupBtn">Register</button>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      
       </main>
+      
     </div>
 
     <!-- Footer -->
