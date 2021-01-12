@@ -1,7 +1,7 @@
 #bodybackground {
   background-image: url("../images/crow.jpg");
   background-repeat: no repeat;
-  padding-top: 2em;
+  padding-top: 0em;
   padding-bottom: 5em;
   background-position-x: right;
   background-size: cover;
@@ -63,5 +63,10 @@ body {
 
 .carouselLink {
   text-decoration: none;
+  color: white;
+}
+
+#signupBtn {
+  background: black;
   color: white;
 }
