@@ -90,3 +90,7 @@ main {
 #Nav{
   grid-area:Nav;
 }
+
+.no-resize{
+  resize: none;
+}
