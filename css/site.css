@@ -39,8 +39,9 @@ body {
   font-family: "Oswald", sans-serif !important;
 }
 
-#signup {
+.signupLink {
   color: white;
+  text-decoration: none;
 }
 
 .carousel-item {
