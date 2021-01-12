@@ -1,16 +1,22 @@
+html{
+  height: 100%;
+}
+
 #bodybackground {
   background-image: url("../images/crow.jpg");
   background-repeat: no-repeat;
-  padding-top: 2em;
-  padding-bottom: 5em;
-  background-position-x: right;
+  background-attachment: fixed;
+  background-position: center;
   background-size: cover;
   background-color: rgb(187, 186, 186);
   background-blend-mode: darken;
+
 }
 
 footer {
+  grid-area: Footer;
   background: black;
+  margin-top: auto;
 }
 
 .navbar {
@@ -37,6 +43,11 @@ footer {
 
 body {
   font-family: "Oswald", sans-serif !important;
+  display: grid;
+  min-height: 100%;
+  grid-template-areas: 'Nav'
+                       'Main'
+                       'Footer';
 }
 
 .signupLink {
@@ -62,14 +73,6 @@ body {
   background-image: url("../images/booking.jpg");
 }
 
-#footer{
-  position: absolute;
-  bottom: 0px;
-  left:0;
-  width:100%;
-  margin:0;
-}
-
 .carouselLink {
   text-decoration: none;
   color: white;
@@ -78,4 +81,12 @@ body {
 #signupBtn {
   background: black;
   color: white;
+}
+
+main {
+  grid-area: Main;
+}
+
+#Nav{
+  grid-area:Nav;
 }
