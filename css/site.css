@@ -9,17 +9,6 @@
   background-blend-mode: darken;
 }
 
-/* #bodybackground {
-  background-image: url("../images/utan_slips.jpg");
-  background-repeat: no repeat;
-  padding-top: 5em;
-  padding-bottom: 5em;
-  background-position-x: center;
-  background-size: cover;
-  background-color: rgb(51, 51, 51);
-  background-blend-mode: darken;
-} */
-
 footer {
   background: black;
 }
@@ -70,4 +59,9 @@ body {
 }
 .carouselimage3 {
   background-image: url("../images/booking.jpg");
+}
+
+.carouselLink {
+  text-decoration: none;
+  color: white;
 }
