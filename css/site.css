@@ -13,6 +13,16 @@ html{
 
 }
 
+#bodybackground2 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(255, 255, 255);
+  background-blend-mode: darken;
+
+}
+
 footer {
   grid-area: Footer;
   background: black;
@@ -91,6 +101,11 @@ main {
   grid-area:Nav;
 }
 
-.no-resize{
-  resize: none;
+.shadow{
+  text-shadow: 0 0 20px black;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.round{
+ border-radius: 15px;
 }
