@@ -51,45 +51,23 @@
   </header>
 
     <div class="container-fluid">
-<<<<<<< HEAD
-      <main class="container-fluid text-light">
-        <h1 class="mt-5 m-auto w-25 text-center">Contact us</h1>
-        <form method="POST" class="m-auto w-75">
-            <div class="row">
-              <div class="col-12 col-lg-4">
-                <div class="col-12">
-                  <label for="firstname" class="form-label">First name</label>
-                  <input type="text" id="firstname" name="Firstname" class="form-control">
-              </div>
-              <div class="col-12">
-                  <label for="lastname" class="form-label">Last name</label>
-                  <input type="text" name="Lastname" id="lastname" class="form-control">
-              </div>
-              <div class="col-12">
-                  <label for="title" class="form-label">Title</label>
-                  <input type="text" name="title" id="title" class="form-control">
-              </div>
-              </div>
-                <div class="col-lg-8 col-12">
-                  <p class="col-lg-4">Text</p>
-                  <textarea name="text" class="col-lg-2 h-100 no-resize" cols="100"></textarea>
-                </div>
-            </div>
-            <input class="" type="submit" value="submit">
-=======
       <main class="container-fluid text-light text-center">
         <h1 class="mt-5 m-auto w-50 mb-5 display-3">Kontakta oss</h1>
-        <h1 class="mb-5 w-75 m-auto">Har du någon fråga eller vill dela med dig av ett evenemang</h1>
+        <h1 class="mb-5 w-75 m-auto">Har du någon fråga eller vill dela med dig av ett evenemang?</h1>
         <form class="m-auto w-75 mb-5">
             <div class="row">
               <div class="col-md-4 col-lg-4 col-12">
                 <div class="col-12 mb-4">
-                    <label for="firstname" class="form-label">Förnamn</label>
-                    <input type="text" id="firstname" name="Firstname" class="form-control">
-                </div>
+                  <p>Vad gäller ditt meddelande?</p>
+                    <label for="fraga" class="form-label">Fråga</label>
+                    <input type="radio" name="msgabt" value="Fråga" id="fraga">
+                    <br>
+                    <label for="tips" class="form-label">Tips om evenemang</label>
+                    <input type="radio" name="msgabt" id="tips" value="Tips om evenemang">
+                  </div>
                 <div class="col-12 mb-4">
-                    <label for="lastname" class="form-label">Efternamn</label>
-                    <input type="text" name="Lastname" id="lastname" class="form-control">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="text" id="email" name="Email" class="form-control">
                 </div>
                 <div class="col-12 mb-4">
                     <label for="title" class="form-label">Titel</label>
@@ -104,7 +82,6 @@
                 <input type="submit" class="col-3 col-lg-1 btn btn-light" value="Skicka">
               </div>
               </div>
->>>>>>> 4ac2cd49affd05ad0b912a7d6816f46e18665ec0
         </form>
         
       </main>
