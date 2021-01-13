@@ -13,6 +13,16 @@ html{
 
 }
 
+#bodybackground2 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(255, 255, 255);
+  background-blend-mode: darken;
+
+}
+
 footer {
   grid-area: Footer;
   background: black;
