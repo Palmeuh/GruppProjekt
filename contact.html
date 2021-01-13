@@ -53,27 +53,31 @@
 
     <div class="container-fluid">
       <main class="container-fluid text-light text-center">
-        <h1 class="mt-5 m-auto w-25 text-center">Contact us</h1>
-        <form method="POST" class="m-auto w-75">
-            <section id="left">
-                <div class="col-lg-2">
+        <h1 class="mt-5 m-auto w-25 mb-5">Contact us</h1>
+        <form class="m-auto w-75 mb-5">
+            <div class="row">
+              <div class="col-md-4 col-lg-4 col-12">
+                <div class="col-12 mb-4">
                     <label for="firstname" class="form-label">First name</label>
                     <input type="text" id="firstname" name="Firstname" class="form-control">
                 </div>
-                <div class="col-lg-2">
+                <div class="col-12 mb-4">
                     <label for="lastname" class="form-label">Last name</label>
                     <input type="text" name="Lastname" id="lastname" class="form-control">
                 </div>
-                <div class="col-lg-2">
+                <div class="col-12 mb-4">
                     <label for="title" class="form-label">Title</label>
                     <input type="text" name="title" id="title" class="form-control">
                 </div>
-                </section>
-            <section id="right">
-                <label for="text">Text</label>
-                <textarea name="text" id="text"></textarea>
-            </section>
-            <input type="submit" value="submit">
+              </div>
+              <div class="row col-md-8 col-lg-8 col-12 m-auto">
+                <label for="text" class="col-12">Message</label>
+                <textarea name="text" class="col-12 form-control" style="resize: none;" rows="10" id="text"></textarea>
+              </div>
+              <div class="col-12 mt-4">
+                <input type="submit" class="col-3 col-lg-1" value="submit">
+              </div>
+              </div>
         </form>
         
       </main>
