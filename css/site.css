@@ -1,4 +1,4 @@
-html{
+html {
   height: 100%;
 }
 
@@ -10,7 +10,6 @@ html{
   background-size: cover;
   background-color: rgb(187, 186, 186);
   background-blend-mode: darken;
-
 }
 
 #bodybackground2 {
@@ -20,7 +19,6 @@ html{
   background-size: cover;
   background-color: rgb(255, 255, 255);
   background-blend-mode: darken;
-
 }
 
 footer {
@@ -55,9 +53,10 @@ body {
   font-family: "Oswald", sans-serif !important;
   display: grid;
   min-height: 100%;
-  grid-template-areas: 'Nav'
-                       'Main'
-                       'Footer';
+  grid-template-areas:
+    "Nav"
+    "Main"
+    "Footer";
 }
 
 .signupLink {
@@ -74,13 +73,18 @@ body {
 }
 
 .carouselimage1 {
+  background-image: url("../images/concert.jpg");
+  background-position-y: 60%;
+}
+
+.carouselimage4 {
   background-image: url("../images/guitar.jpg");
 }
 .carouselimage2 {
   background-image: url("../images/microphone2.jpg");
 }
 .carouselimage3 {
-  background-image: url("../images/booking.jpg");
+  background-image: url("../images/djtable.jpg");
 }
 
 .carouselLink {
@@ -97,15 +101,15 @@ main {
   grid-area: Main;
 }
 
-#Nav{
-  grid-area:Nav;
+#Nav {
+  grid-area: Nav;
 }
 
-.shadow{
+.shadow {
   text-shadow: 0 0 20px black;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
-.round{
- border-radius: 15px;
+.round {
+  border-radius: 15px;
 }
